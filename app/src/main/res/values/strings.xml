@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Techno_News</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="tab_sports">Sports</string>
+    <string name="tab_academic">Academic</string>
+    <string name="tab_events">Events</string>
+    <string name="featured_news_title">Purawara Wasanthaya Aurudu Uthsawaya 2025 Celebrated with Cultural Splendor</string>
+    <string name="featured_news_author">Hiruka Thathsara</string>
+    <string name="latest_news">Latest News</string>
+    <string name="article_title">Purawara Wasanthaya Aurudu Uthsawaya 2025 Celebrated with Cultural Splendor</string>
+    <string name="article_body">In a vibrant celebration of Sinhala and Tamil New Year traditions, the Purawara Wasanthaya – Aurudu Uthsawaya 2025 was successfully held on the 26th of April 2025 at the Faculty of Technology premises, University of Colombo. The event was proudly organized by the Students Welfare Society of the faculty.\n\nThe festival brought together students, academic staff, and well-wishers in a colorful display of unity and culture. Traditional games, music, dance performances, and mouth-watering festive treats filled the day with joy and excitement. The Aurudu Kumara and Kumariya contests were a special highlight, alongside events such as pillow fighting (Kotta pora), tug-of-war, and the ever-popular kana mutti bindeema.</string>
+    <string name="article_caption">Held on April 26th at the Faculty of Technology, University of Colombo</string>
+</resources>
