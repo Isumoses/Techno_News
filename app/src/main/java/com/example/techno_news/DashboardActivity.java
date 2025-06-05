@@ -129,7 +129,6 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
         FeaturedNewsPagerAdapter adapter = new FeaturedNewsPagerAdapter(newsList);
         viewPager.setAdapter(adapter);
 
-        // --- Add margin between tab items for pill effect ---
         tabLayout.post(() -> {
             int marginDp = 8;
             float density = tabLayout.getContext().getResources().getDisplayMetrics().density;
@@ -194,7 +193,7 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
             btnOk.setOnClickListener(view -> {
                 // Clear session or user data here if needed
 
-                Intent intent = new Intent(this, Splash2Activity.class);
+                Intent intent = new Intent(this, LoginActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
                 finish();

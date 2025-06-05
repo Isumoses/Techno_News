@@ -97,7 +97,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void showForgotPasswordDialog() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        AlertDialog.Builder builder = new AlertDialog.Builder(this, R.style.CustomDialog);
         View dialogView = getLayoutInflater().inflate(R.layout.dialog_forgot_password, null);
         builder.setView(dialogView);
         AlertDialog dialog = builder.create();
