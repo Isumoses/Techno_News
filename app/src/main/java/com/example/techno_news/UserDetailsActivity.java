@@ -145,7 +145,7 @@ public class UserDetailsActivity extends AppCompatActivity {
         AlertDialog dialog = builder.create();
         dialog.setCancelable(false);
 
-        // Optional: Set slide-down animation for the dialog window
+        //Set slide-down animation for the dialog window
         if (dialog.getWindow() != null) {
             dialog.getWindow().getAttributes().windowAnimations = R.style.DialogSlideDownAnimation;
         }
@@ -222,16 +222,6 @@ public class UserDetailsActivity extends AppCompatActivity {
                 passwordToggle.setImageResource(R.drawable.ic_visibility_off);
             }
             passwordEdit.setSelection(passwordEdit.getText().length());
-        });
-    }
-
-    private void setupSignOutButton() {
-        findViewById(R.id.sign_out).setOnClickListener(v -> {
-            // Existing sign-out dialog code
-            // Add Firebase sign-out:
-            mAuth.signOut();
-            startActivity(new Intent(this, Splash2Activity.class));
-            finishAffinity();
         });
     }
 }

@@ -13,7 +13,7 @@ public class ArticleDetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_article_detail);
 
-        // Get data from intent (if you want to pass data)
+        // Get data from intent
         String title = getIntent().getStringExtra("title");
         String author = getIntent().getStringExtra("author");
         String date = getIntent().getStringExtra("date");

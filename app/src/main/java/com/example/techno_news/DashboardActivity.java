@@ -117,7 +117,7 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
         NavigationView navigationView = findViewById(R.id.navigation_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        // --- Set up the image slider (ViewPager2) and dots indicator ---
+        //Set up the image slider
         ViewPager2 viewPager = findViewById(R.id.featuredNewsPager);
 
         // Prepare your news list
@@ -144,7 +144,7 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
             }
         });
 
-        // --- Auto swap logic ---
+        //Auto swap logic
         NUM_PAGES = newsList.size();
         sliderRunnable = new Runnable() {
             @Override
@@ -182,7 +182,7 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
             AlertDialog dialog = builder.create();
             dialog.setCancelable(false);
 
-            // Optional: Set slide-down animation for the dialog window
+            //Set slide-down animation for the dialog window
             if (dialog.getWindow() != null) {
                 dialog.getWindow().getAttributes().windowAnimations = R.style.DialogSlideDownAnimation;
             }

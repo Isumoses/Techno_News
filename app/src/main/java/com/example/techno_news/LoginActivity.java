@@ -73,7 +73,7 @@ public class LoginActivity extends AppCompatActivity {
         EditText passwordEditText = findViewById(R.id.password);
         TextInputEditText emailEditText = findViewById(R.id.email);
 
-// Email field focus listener
+        // Email field focus listener
         emailEditText.setOnFocusChangeListener((v, hasFocus) -> {
             if (hasFocus) {
                 emailInputLayout.setHint("");
@@ -84,7 +84,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-// Password field focus listener
+        // Password field focus listener
         passwordEditText.setOnFocusChangeListener((v, hasFocus) -> {
             if (hasFocus) {
                 passwordInputLayout.setHint("");
