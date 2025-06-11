@@ -49,7 +49,7 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
         // Set scrim color for dimming effect when drawer is open
         drawerLayout.setScrimColor(0x66000000);
 
-        //Set up Drawer Toggle (hamburger icon)
+        //Set up Drawer Toggle
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawerLayout,
                 R.string.navigation_drawer_open, R.string.navigation_drawer_close);
