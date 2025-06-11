@@ -2,7 +2,7 @@
 # Assignment – II Mobile Application
 # Techno News
 
-Techno News is an Android application that delivers the latest news articles in Technology, Science, and Business. The app features real-time updates, user authentication, and an admin panel for publishing news.
+Techno News is an Android application that delivers the latest news articles in Sports, Acedemic, and Events.
 
 ## Features
 
