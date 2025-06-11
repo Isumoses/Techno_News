@@ -23,7 +23,7 @@ Techno News is an Android application that delivers the latest news articles in 
 
 1. **Clone the repository:**
     ```
-    git clone https://github.com/yourusername/Techno_News.git
+    git clone https://github.com/yourusername/Techno_News.git](https://github.com/Isumoses/Techno_News.git
     ```
 2. **Open in Android Studio.**
 3. **Configure Firebase:**
@@ -39,4 +39,4 @@ Techno News is an Android application that delivers the latest news articles in 
 
 ---
 
-**Created by I W Moses 2020T00892**
+## Created by I W Moses 2020T00892
